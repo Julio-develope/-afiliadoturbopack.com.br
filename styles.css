@@ -140,3 +140,18 @@ body {
   transform: scale(1.03);
   box-shadow: 0 8px 24px rgba(0, 200, 111, 0.5);
 }
+
+
+@media (max-width: 768px) {
+
+  .header h1 {
+  font-size: 1.2rem;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+}
+
