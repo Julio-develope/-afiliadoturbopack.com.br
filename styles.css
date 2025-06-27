@@ -1,0 +1,142 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(to right, #f7f8fa, #e9eff5);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge {
+  background-color: #ffc107;
+  color: #111;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 1.8rem;
+  color: #00c86f;
+  margin-top: 0.5rem;
+}
+
+/* DESCRIÇÃO */
+.description {
+  margin-bottom: 2rem;
+}
+
+.description ul {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+.description li {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.highlight {
+  margin-top: 1.5rem;
+  background-color: #f0fff5;
+  padding: 1rem;
+  border-left: 4px solid #00c86f;
+  border-radius: 8px;
+  color: #064d3b;
+  font-weight: 500;
+}
+
+/* PRÉVIA */
+.preview {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.preview h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.media-gallery video {
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* SEÇÃO DE PAGAMENTO */
+.mercado-pago-action {
+  margin-top: 3rem;
+  background: #e2fbee;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #b7f0d6;
+}
+
+.mercado-pago-action h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #056443;
+}
+
+.mercado-pago-action p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* BOTÃO DE PAGAMENTO */
+.btn-pagamento {
+  display: inline-block;
+  background: linear-gradient(135deg, #00c86f, #00a75a);
+  color: white;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 200, 111, 0.3);
+}
+
+.btn-pagamento:hover {
+  background: linear-gradient(135deg, #00a75a, #008c4a);
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 200, 111, 0.5);
+}
